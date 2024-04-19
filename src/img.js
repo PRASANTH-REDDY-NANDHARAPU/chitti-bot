@@ -6,4 +6,4 @@ const Body=()=>{
         <Imgbody/>
     </div>
 }
-export default Body
+export default Body;

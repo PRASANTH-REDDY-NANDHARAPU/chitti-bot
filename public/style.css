@@ -116,4 +116,49 @@ color: transparent;
     height:450px;
     object-fit: cover;
 }
+.image-download{
+    display: flex;
+    align-items: center;
+}
 
+  
+  .intro-2::after {
+    content: "Enter image name...";
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    border-right: .10em solid rgb(184, 184, 184); 
+    white-space: nowrap;
+    animation: typing 4s steps(40, end) infinite; 
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+      background: linear-gradient(to right ,rgb(99, 99, 240),red);
+      -webkit-background-clip: text;
+      background-clip: text;
+     color: transparent;
+    }
+  }
+  .side-btn{
+    width: 100%;
+    border: none;
+    padding: 8px 15px;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px;
+    background-color:black;
+    color: rgb(161, 160, 160);
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .side-btn:hover{
+    
+    border: 1px solid rgb(210, 210, 210);
+  }
+  
